@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Citas</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Citas Inspiradoras</h1>
+        <p>Encuentra inspiración y sabiduría de autores y temas variados.</p>
+    </header>
+    <section id="busqueda">
+        <h2>Búsqueda de Citas</h2>
+        <form id="form-busqueda">
+            <input type="text" id="autor" placeholder="Buscar por autor...">
+            <input type="text" id="categoria" placeholder="Buscar por categoría...">
+            <button type="submit">Buscar</button>
+        </form>
+        <button id="btn-aleatorio">Cita Aleatoria</button>
+    </section>
+    <section id="resultados">
+        <h2>Resultados</h2>
+        <div id="citas-container"></div>
+        <p id="error-message" style="color: red; display: none;">No se encontraron citas o ocurrió un error.</p>
+    </section>
+    <footer>
+        <p>Desarrollado por Emanuel López</p>
+    </footer>
+    <script src="javas.js"></script>
+</body>
+</html>
